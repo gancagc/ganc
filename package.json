@@ -1,7 +1,7 @@
 {
-  "name": "agc netlify",
+  "name": "AnoKw",
   "version": "1.0.0",
-  "description": "agc nodejs for netlify",
+  "description": "AnoKw",
   "main": "functions/core.js",
   "scripts": {
     "build": "netlify-lambda build server"
