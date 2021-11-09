@@ -6,11 +6,9 @@
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "meta",
-    "iframe",
     "script data-cfasync",
     ".data-cfasync",
     "#data-cfasync",
-    "embed",
 "berlangganan-300",
 "comentarios",
 ".comentarios",
