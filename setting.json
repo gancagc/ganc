@@ -297,8 +297,8 @@
           "name-attribute":"content",
           "value-attribute":"${nameWeb}"
         }
-      ],<!-- FAV -->
-"data-innerHTML":"",
+      ],
+      "data-innerHTML":"",
       "position":"start"
     },
     {
@@ -316,7 +316,7 @@
        "name-attribute":"type",
        "value-attribute":"image/x-icon"
        }
-      ], <!-- END FAV -->
+      ], 
       "data-innerHTML":"",
       "position":"start"
     },
