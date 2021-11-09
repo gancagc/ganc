@@ -48,7 +48,7 @@
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://anoboy.media",
           "replace":"${nameWeb}"
         }
       ]
