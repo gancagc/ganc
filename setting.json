@@ -5,7 +5,6 @@
   "target":"https://neonime.cc",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
-    "meta",
     "script data-cfasync",
     ".data-cfasync",
 "dropdown",
