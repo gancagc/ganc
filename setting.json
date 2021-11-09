@@ -7,7 +7,6 @@
   "element-remove":[
     "meta",
     "iframe",
-    "
     "script data-cfasync",
     ".data-cfasync",
     "#data-cfasync",
