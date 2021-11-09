@@ -76,9 +76,24 @@
 "player211",
 "#player211",
 ".player211",
+"choose-episode",
+"#choose-episode",
+".choose-episode",
 "player212",
 "#player212",
 ".player212",
+"player214",
+"#player214",
+".player214",
+"player215",
+"#player215",
+"notes",
+"#notes",
+".notes",
+".player215",
+"player216",
+"#player216",
+".player216",
     "script data-cfasync",
     "popup_bawah",
 "#iklan-header-item",
@@ -282,7 +297,26 @@
           "name-attribute":"content",
           "value-attribute":"${nameWeb}"
         }
-      ],
+      ],<!-- FAV -->
+"data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"link",
+      "data-attribute":[
+        {
+          "name-attribute":"rel",
+          "value-attribute":"shortcut icon"
+        },
+        {
+          "name-attribute":"href",
+          "value-attribute":"https://neonime.cc/wp-content/uploads/2018/07/favicon.png"
+        },
+       {
+       "name-attribute":"type",
+       "value-attribute":"image/x-icon"
+       }
+      ], <!-- END FAV -->
       "data-innerHTML":"",
       "position":"start"
     },
