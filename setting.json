@@ -7,6 +7,9 @@
   "element-remove":[
     "script data-cfasync",
     ".data-cfasync",
+"cgroup",
+"#cgroup",
+".cgroup",
 "dropdown",
 "#dropdown",
 ".dropdown",
