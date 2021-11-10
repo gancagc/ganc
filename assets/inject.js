@@ -46,6 +46,11 @@ function removeImg(data){
     targetImg.remove();
   };
 };
+
+
+$("#iframe").contents().find("body").html('');
+
+
 document.querySelectorAll("img").forEach(function(a){
   try{
     let dataUrl=a.getAttribute("src");
