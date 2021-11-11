@@ -240,6 +240,21 @@
       "name-element":"meta",
       "data-attribute":[
         {
+          "name-attribute":"name",
+          "value-attribute":"propeller"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"3f2e8509e1b990ad6907f2e1892e8c72"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"meta",
+      "data-attribute":[
+        {
           "name-attribute":"charset",
           "value-attribute":"UTF-8"
         }
