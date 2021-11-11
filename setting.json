@@ -396,6 +396,10 @@
           "value-attribute":"/assets/inject.js"
         }
       ],
+"data-innerHTML":"",
+      "position":"start"
+    }
+  ], 
 "inject-element-body":[
     {
       "name-element":"script",
