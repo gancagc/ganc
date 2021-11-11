@@ -1,0 +1,6 @@
+User-Agent: *
+
+Allow: /
+Disallow: 
+
+Sitemap: https://neonime.uk/host-https-neonime.cc/sitemap.xml
