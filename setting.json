@@ -396,6 +396,15 @@
           "value-attribute":"/assets/inject.js"
         }
       ],
+"inject-element-body":[
+    {
+      "name-element":"script",
+      "data-attribute":[
+        {
+          "name-attribute":"src",
+          "value-attribute":"/assets/adblo.js"
+        }
+      ],
       "data-innerHTML":"",
       "position":"end"
     }
