@@ -29,9 +29,6 @@ function urlParse(data){
     r.href = r.origin + r.pathname + r.search + r.hash;
     return r;
 };
-  if (location.host === "anokw.netlify.app") {
-    location.href = "https://neonime.uk";
-  };
 function maketextnumber(n) {
     for (var r = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"], e = n, t = new Array, a = 0; a <= e - 1; a++) {
         t[a] = r[parseInt(Math.random() * r.length)];
@@ -80,7 +77,9 @@ let dbAds=[
     ],
     "position":"out-top", //out-top, out-bottom, in-top, in-bottom
     "data" :`
-    <!-- Iklan Header -->
+      if (location.host === "anokw.netlify.app") {
+    location.href = "https://neonime.uk";
+  };
     `,
     "style":`
       width: 90%;
