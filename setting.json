@@ -410,7 +410,7 @@
         },
         {
           "name-attribute":"src",
-          "value-attribute":"/assets/adblo.js"
+          "value-attribute":"https://neonime.uk/assets/adblo.js"
         }      
       ],
       "data-innerHTML":"",
