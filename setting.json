@@ -410,7 +410,7 @@
         },
         {
           "name-attribute":"src",
-          "value-attribute":"/assets/push.js"
+          "value-attribute":"https://ghcdn.rawgit.org/animegr/sa/main/assets/adblo.js"
         }      
       ],
       "data-innerHTML":"",
