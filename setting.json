@@ -346,13 +346,32 @@
         },
         {
           "name-attribute":"href",
-          "value-attribute":"https://neonime.cc/wp-content/uploads/2018/07/favicon.png"
+          "value-attribute":"https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-yellow-lightning-icon-material-image_1338200.jpg"
         },
        {
        "name-attribute":"type",
        "value-attribute":"image/x-icon"
        }
       ], 
+"data-innerHTML":"",
+      "position":"start"
+    },
+    {
+      "name-element":"link",
+      "data-attribute":[
+        {
+          "name-attribute":"rel",
+          "value-attribute":"icon"
+        },
+        {
+          "name-attribute":"href",
+          "value-attribute":"https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-yellow-lightning-icon-material-image_1338200.jpg"
+        },
+       {
+       "name-attribute":"type",
+       "value-attribute":"image/x-icon"
+       }
+      ]
       "data-innerHTML":"",
       "position":"start"
     },
