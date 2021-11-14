@@ -352,8 +352,7 @@
        "name-attribute":"type",
        "value-attribute":"image/x-icon"
        }
-      ], 
-"data-innerHTML":"",
+      ], "data-innerHTML":"",
       "position":"start"
     },
     {
@@ -369,9 +368,9 @@
         },
        {
        "name-attribute":"type",
-       "value-attribute":"image/x-icon"
+       "value-attribute":"image/png"
        }
-      ]
+      ],
       "data-innerHTML":"",
       "position":"start"
     },
