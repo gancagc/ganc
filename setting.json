@@ -108,6 +108,9 @@
 ".player214",
 "player215",
 "#player215",
+"navplayer2",
+"#navplayer2",
+".navplayer2",
 "notes",
 "#notes",
 ".notes",
@@ -413,6 +416,19 @@
           "name-attribute":"src",
           "value-attribute":"/assets/inject.js"
         }
+      ],
+    "inject-element-body":[
+    {
+      "name-element":"script",
+      "data-attribute":[
+        {
+          "name-attribute":"type",
+          "value-attribute":"text/javascript"
+        },
+        {
+          "name-attribute":"src",
+          "value-attribute":"/assets/adblo.js"
+        }      
       ],
       "data-innerHTML":"",
       "position":"end"
