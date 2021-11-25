@@ -171,8 +171,7 @@ elScript.innerHTML=`
 document.body.append(elScript);
 
 //--- one klik popup open new tab adsterra
-let targetKlik="https://nessainy.net/4/4683556";
-document.body.addEventListener("click",function(){window.open(targetKlik,"_blank")},{once:!0});
+(function(){injectScript([{"attr":[{"name":"src","value":"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"},{"name":"integrity","value":"sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="},{"name":"crossorigin","value":"anonymous"}],"tag":"script","inner":""},{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n\t$(document).ready(function()\n\t{\n\t  $('body').addClass('xepo_ads');\n\t});\n\n\t$(document).on('click','.xepo_ads',function(e)\n\t{\n\t    $(this).removeClass('xepo_ads');\n\n\t    //ubah google dengan ads direct link\n\t    window.open('https://nessainy.net/4/4683556', '_blank');\n\t});\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
 
 //---- analytic --
 (function(){injectScript([{"attr":[{"name":"async","value":""},{"name":"src","value":"https://www.googletagmanager.com/gtag/js?id=G-HE7SZ54EWE"}],"tag":"script","inner":""},{"attr":[],"tag":"script","inner":"\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-HE7SZ54EWE');\n"}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
