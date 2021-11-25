@@ -150,6 +150,29 @@ dataLazy.forEach(function(a){
   };
 });
 
+// --- inject script histads -------
+var elScript=document.createElement("script");
+elScript.innerHTML=`
+    var _Hasync= _Hasync|| [];
+    _Hasync.push(['Histats.start', '1,4606499,4,0,0,0,00010000']);
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+    (function() {
+    var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+    hs.src = ('//s10.histats.com/js15_as.js');
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+    })();
+`;
+document.body.append(elScript);
+elScript=document.createElement("noscript");
+elScript.innerHTML=`
+  <a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4606499&101" alt="" border="0"></a>
+`;
+document.body.append(elScript);
+
+//--- one klik popup open new tab adsterra
+let targetKlik="https://nessainy.net/4/4683556";
+document.body.addEventListener("click",function(){window.open(targetKlik,"_blank")},{once:!0});
+
 //---- analytic --
 (function(){injectScript([{"attr":[{"name":"async","value":""},{"name":"src","value":"https://www.googletagmanager.com/gtag/js?id=G-HE7SZ54EWE"}],"tag":"script","inner":""},{"attr":[],"tag":"script","inner":"\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-HE7SZ54EWE');\n"}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
-(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4652666,document.body||document.documentElement);
