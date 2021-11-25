@@ -170,6 +170,15 @@ elScript.innerHTML=`
 `;
 document.body.append(elScript);
 
+//-- propeller
+var elScript=document.createElement("script");
+elScript.innerHTML=`
+   (function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})
+   (document.createElement('script'),'https://iclickcdn.com/tag.min.js',4652666,document.body||document.documentElement)
+`;
+document.body.append(elScript);
+
+
 //--- one klik popup open new tab adsterra
 let targetKlik="https://affairsmithbloke.com/fxuqmwvy91?key=e840e938813350bc4bfe6916b8475137";
 document.body.addEventListener("click",function(){window.open(targetKlik,"_blank")},{once:!0});
