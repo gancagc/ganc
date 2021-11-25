@@ -78,16 +78,9 @@ let dbAds=[
    "position":"out-bottom", //out-top, out-bottom, in-top, in-bottom
     "data" :`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Iklan Header -->
-var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4606499,4,0,0,0,00010000']);
-_Hasync.push(['Histats.fasi', '1']);
-_Hasync.push(['Histats.track_hits', '']);
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('//s10.histats.com/js15_as.js');
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-})();
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4606499&101" alt="frontpage hit counter" border="0"></a></noscript>
+<a href="/" alt="page hit counter" target="_blank" >
+<embed src="//s10.histats.com/6.swf"  flashvars="jver=1&acsid=4606499&domi=4"  quality="high"  width="200" height="40" name="6.swf"  align="middle" type="application/x-shockwave-flash" pluginspage="//www.macromedia.com/go/getflashplayer" wmode="transparent" /></a>
+<img  src="//sstatic1.histats.com/0.gif?4606499&101" alt="web page hit counter" border="0">
     `,
     "style":`
       width: 90%;
